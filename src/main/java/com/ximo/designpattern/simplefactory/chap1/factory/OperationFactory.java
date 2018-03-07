@@ -1,6 +1,6 @@
-package com.ximo.designpattern.chap1.factory;
+package com.ximo.designpattern.simplefactory.chap1.factory;
 
-import com.ximo.designpattern.chap1.operation.*;
+import com.ximo.designpattern.simplefactory.chap1.operation.*;
 
 /**
  * @author 朱文赵
