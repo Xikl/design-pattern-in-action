@@ -1,6 +1,7 @@
 package com.ximo.designpattern.simplefactory.chap2;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 /**
  * @author 朱文赵
@@ -17,6 +18,7 @@ public class CashRebate extends BaseCash{
 
     @Override
     public BigDecimal acceptCash(BigDecimal money) {
-        return money.multiply(moneyRebate);
+        return money.multiply(moneyRebate).setScale(2, RoundingMode.DOWN);
     }
+
 }

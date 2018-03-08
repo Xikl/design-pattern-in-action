@@ -8,12 +8,12 @@ import java.math.RoundingMode;
  * @date 2018/3/7 16:23
  * @description 返利子类
  */
-public class CashSuper extends BaseCash {
+public class CashReturn extends BaseCash {
 
     private BigDecimal moneyCondition;
     private BigDecimal moneyReturn;
 
-    public CashSuper(BigDecimal moneyCondition, BigDecimal moneyReturn) {
+    public CashReturn(BigDecimal moneyCondition, BigDecimal moneyReturn) {
         this.moneyCondition = moneyCondition;
         this.moneyReturn = moneyReturn;
     }
