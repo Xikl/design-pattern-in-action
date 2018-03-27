@@ -1,13 +1,13 @@
-package com.ximo.designpattern.decorator.impl;
+package com.ximo.designpattern.decorator.first.impl;
 
-import com.ximo.designpattern.decorator.BaseComponent;
+import com.ximo.designpattern.decorator.first.BaseComponent;
 
 /**
  * @author 朱文赵
  * @date 2018/3/20 11:13
  * @description
  */
-public class ConcreteComponent extends BaseComponent{
+public class ConcreteComponent extends BaseComponent {
 
 
     @Override

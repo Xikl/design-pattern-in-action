@@ -1,11 +1,13 @@
-package com.ximo.designpattern.decorator.impl;
+package com.ximo.designpattern.decorator.first.impl;
+
+import com.ximo.designpattern.decorator.first.Decorator;
 
 /**
  * @author 朱文赵
  * @date 2018/3/20 12:09
  * @description
  */
-public class ConcreteDecoratorB extends Decorator{
+public class ConcreteDecoratorB extends Decorator {
 
     @Override
     public void operation() {

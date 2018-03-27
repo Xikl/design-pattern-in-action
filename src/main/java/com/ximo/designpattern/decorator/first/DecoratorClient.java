@@ -1,9 +1,9 @@
-package com.ximo.designpattern.decorator;
+package com.ximo.designpattern.decorator.first;
 
-import com.ximo.designpattern.decorator.impl.ConcreteComponent;
-import com.ximo.designpattern.decorator.impl.ConcreteDecoratorA;
-import com.ximo.designpattern.decorator.impl.ConcreteDecoratorB;
-import com.ximo.designpattern.decorator.impl.ConcreteDecoratorC;
+import com.ximo.designpattern.decorator.first.impl.ConcreteComponent;
+import com.ximo.designpattern.decorator.first.impl.ConcreteDecoratorA;
+import com.ximo.designpattern.decorator.first.impl.ConcreteDecoratorB;
+import com.ximo.designpattern.decorator.first.impl.ConcreteDecoratorC;
 
 /**
  * @author 朱文赵

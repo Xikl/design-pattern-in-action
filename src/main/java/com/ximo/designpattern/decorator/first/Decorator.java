@@ -1,6 +1,5 @@
-package com.ximo.designpattern.decorator.impl;
+package com.ximo.designpattern.decorator.first;
 
-import com.ximo.designpattern.decorator.BaseComponent;
 import lombok.Getter;
 import lombok.Setter;
 

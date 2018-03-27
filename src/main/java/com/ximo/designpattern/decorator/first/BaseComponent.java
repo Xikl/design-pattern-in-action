@@ -1,4 +1,4 @@
-package com.ximo.designpattern.decorator;
+package com.ximo.designpattern.decorator.first;
 
 /**
  * @author 朱文赵

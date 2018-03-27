@@ -1,4 +1,6 @@
-package com.ximo.designpattern.decorator.impl;
+package com.ximo.designpattern.decorator.first.impl;
+
+import com.ximo.designpattern.decorator.first.Decorator;
 
 /**
  * @author 朱文赵
