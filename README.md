@@ -42,3 +42,8 @@ a.setComponent(base);
 b.setComponent(a);
 b.operation();
 ```
+
+#### 3.发布订阅模式（观察者模式）
+- 3.1 观察者需要有 增删和通知观察者(订阅者)的能力(方法)
+- 3.2 观察者需要实现一个接口（`Observer`）来获得更新自我的能力
+这个方法需要有两个参数（Observable o, T arg）来进行操作
