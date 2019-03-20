@@ -30,6 +30,20 @@ public class OperationFactory {
         return operation;
     }
 
+    /**
+     * 开闭原则
+     *
+     * @param clazz
+     * @return
+     */
+    public static BaseOperation createOperation(Class<? extends BaseOperation> clazz) {
+        try {
+            BaseOperation operation = clazz.newInstance();
+            return operation;
+        } catch (InstantiationException | IllegalAccessException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
 
 }
