@@ -1,4 +1,4 @@
-package com.ximo.designpattern.simplefactory.chap1.operation;
+package com.ximo.designpattern.creational.simplefactory.operation;
 
 /**
  * @author 朱文赵

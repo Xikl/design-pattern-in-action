@@ -1,6 +1,6 @@
-package com.ximo.designpattern.simplefactory.chap1.factory;
+package com.ximo.designpattern.creational.simplefactory.factory;
 
-import com.ximo.designpattern.simplefactory.chap1.operation.*;
+import com.ximo.designpattern.creational.simplefactory.operation.*;
 
 /**
  * @author 朱文赵
@@ -32,6 +32,7 @@ public class OperationFactory {
 
     /**
      * 开闭原则
+     * 通过反射来进行创建 也可以新建一个注解 来决定
      *
      * @param clazz
      * @return

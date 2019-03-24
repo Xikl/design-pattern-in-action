@@ -1,8 +1,8 @@
-package com.ximo.designpattern.simplefactory.chap1;
+package com.ximo.designpattern.creational.simplefactory;
 
-import com.ximo.designpattern.simplefactory.chap1.factory.OperationFactory;
-import com.ximo.designpattern.simplefactory.chap1.operation.BaseOperation;
-import com.ximo.designpattern.simplefactory.chap1.operation.OperationAdd;
+import com.ximo.designpattern.creational.simplefactory.factory.OperationFactory;
+import com.ximo.designpattern.creational.simplefactory.operation.BaseOperation;
+import com.ximo.designpattern.creational.simplefactory.operation.OperationAdd;
 
 /**
  * @author 朱文赵
