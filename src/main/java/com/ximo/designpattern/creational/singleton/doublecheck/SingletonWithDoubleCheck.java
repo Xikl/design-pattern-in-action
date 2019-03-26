@@ -6,7 +6,11 @@ package com.ximo.designpattern.creational.singleton.doublecheck;
  */
 public class SingletonWithDoubleCheck {
 
-    private static SingletonWithDoubleCheck instance;
+    /**
+     * 加上volatile 禁止重排序
+     * 共享内存
+     */
+    private volatile static SingletonWithDoubleCheck instance;
 
     /**
      * 同步对象
@@ -19,6 +23,9 @@ public class SingletonWithDoubleCheck {
     /**
      * 双重检查
      * 低版本jdk 可能无法正确执行
+     *
+     * 避免重排序造成的困扰
+     * 1.禁止重排序 在instance中加上volatile关键字
      *
      * @return
      */
