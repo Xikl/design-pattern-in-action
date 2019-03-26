@@ -6,6 +6,13 @@ package com.ximo.designpattern.creational.builder.chaintype;
  */
 public class Test {
 
+    /**
+     * @see StringBuilder#append(String)
+     * @see com.google.common.cache.CacheBuilder
+     * @see org.springframework.beans.factory.support.BeanDefinitionBuilder
+     * @see org.apache.ibatis.session.SqlSessionFactoryBuilder, {@link org.apache.ibatis.builder.xml.XMLConfigBuilder}
+     * @param args
+     */
     public static void main(String[] args) {
         Course course = new Course.Builder()
                 .courseArticle("java")
