@@ -1,12 +1,16 @@
 package com.ximo.designpattern.creational.singleton.innerholder;
 
+import java.io.Serializable;
+
 /**
  * 静态内部类的方式
  *
  * @author xikl
  * @date 2019/3/26
  */
-public class SingletonWithHolder {
+public class SingletonWithHolder implements Serializable {
+
+    private static final long serialVersionUID = -2299055489751036052L;
 
     private SingletonWithHolder() {
     }
@@ -17,10 +21,24 @@ public class SingletonWithHolder {
      *
      */
     private static class SingletonHolder {
-        private static SingletonHolder instance = new SingletonHolder();
+        private static SingletonWithHolder instance = new SingletonWithHolder();
     }
 
-    public SingletonHolder getInstance() {
+    public static SingletonWithHolder getInstance() {
         return SingletonHolder.instance;
+    }
+
+    /**
+     * 此处必须返回object对象否则无法一致
+     * @see java.io.ObjectOutputStream
+     * @see java.io.ObjectInputStream#readObject, readObject0, readOrdinaryObject
+     * Object rep = desc.invokeReadResolve(obj);
+     * 赋值给我们的obj
+     * handles.setObject(passHandle, obj = rep);
+     *
+     * @return
+     */
+    public Object readResolve() {
+        return getInstance();
     }
 }
