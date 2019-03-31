@@ -17,7 +17,8 @@ public class Hacker {
 
     public static void main(String[] args) throws Exception {
 //        hackByObjectOutputStream();
-        hackByReflect();
+//        hackByReflect();
+
     }
 
 

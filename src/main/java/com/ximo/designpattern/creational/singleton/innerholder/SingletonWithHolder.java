@@ -12,7 +12,13 @@ public class SingletonWithHolder implements Serializable {
 
     private static final long serialVersionUID = -2299055489751036052L;
 
+    /**
+     * 静态内部类可以实现这种判断
+     */
     private SingletonWithHolder() {
+        if (SingletonHolder.instance != null) {
+            throw new UnsupportedOperationException("can not create the object by reflect");
+        }
     }
 
     /**
