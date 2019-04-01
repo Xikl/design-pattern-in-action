@@ -6,7 +6,7 @@ package com.ximo.designpattern.creational.singleton.hungrysingleton;
  * @author xikl
  * @date 2019/3/26
  */
-public class SingletonWithHungry {
+public class SingletonWithHungry implements Cloneable {
 
     private static SingletonWithHungry instance = new SingletonWithHungry();
 
@@ -22,5 +22,11 @@ public class SingletonWithHungry {
 
     public static SingletonWithHungry getInstance() {
         return instance;
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+//        return super.clone();
+        return getInstance();
     }
 }
