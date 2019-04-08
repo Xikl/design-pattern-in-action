@@ -1,4 +1,4 @@
-package com.ximo.designpattern.decorator.third.stream;
+package com.ximo.designpattern.structural.decorator.third.stream;
 
 import java.io.*;
 

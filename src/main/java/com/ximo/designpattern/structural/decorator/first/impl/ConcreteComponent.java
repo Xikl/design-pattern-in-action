@@ -1,6 +1,6 @@
-package com.ximo.designpattern.decorator.first.impl;
+package com.ximo.designpattern.structural.decorator.first.impl;
 
-import com.ximo.designpattern.decorator.first.BaseComponent;
+import com.ximo.designpattern.structural.decorator.first.BaseComponent;
 
 /**
  * @author 朱文赵
