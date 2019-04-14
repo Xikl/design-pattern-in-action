@@ -1,11 +1,18 @@
 package com.ximo.designpattern.structural.composite;
 
 /**
+ * 组合模式
+ *
  * @author xikl
  * @date 2019/4/14
  */
 public class Test {
 
+    /**
+     * @see org.apache.ibatis.scripting.xmltags.SqlNode
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         BaseCatalogComponent linuxCourse = new Course("linux course", 11);
         BaseCatalogComponent windowCourse = new Course("windows course", 12);
