@@ -17,6 +17,8 @@ public class EmployeeFactory {
      *
      * 享元模式 内部状态 不可变  外部状态可变
      *  如： depart 为外部所影响的 而manager中的title是不可变的 私有属性
+     *
+     * @see Integer#valueOf 中的IntegerCache 他会在初始化的时候添加一个值
      * @param depart 部门名称
      * @return
      */
