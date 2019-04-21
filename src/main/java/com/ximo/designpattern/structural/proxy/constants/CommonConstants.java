@@ -1,4 +1,4 @@
-package com.ximo.designpattern.proxy.constants;
+package com.ximo.designpattern.structural.proxy.constants;
 
 /**
  * @author xikl

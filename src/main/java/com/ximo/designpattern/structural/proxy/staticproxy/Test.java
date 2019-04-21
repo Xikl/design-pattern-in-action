@@ -1,6 +1,6 @@
-package com.ximo.designpattern.proxy.staticproxy;
+package com.ximo.designpattern.structural.proxy.staticproxy;
 
-import com.ximo.designpattern.proxy.Order;
+import com.ximo.designpattern.structural.proxy.Order;
 
 /**
  * @author xikl

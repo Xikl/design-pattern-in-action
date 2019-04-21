@@ -1,10 +1,10 @@
-package com.ximo.designpattern.proxy.staticproxy;
+package com.ximo.designpattern.structural.proxy.staticproxy;
 
-import com.ximo.designpattern.proxy.IOrderService;
-import com.ximo.designpattern.proxy.IOrderServiceImpl;
-import com.ximo.designpattern.proxy.Order;
-import com.ximo.designpattern.proxy.constants.CommonConstants;
-import com.ximo.designpattern.proxy.db.DataSourceContextHolder;
+import com.ximo.designpattern.structural.proxy.IOrderService;
+import com.ximo.designpattern.structural.proxy.IOrderServiceImpl;
+import com.ximo.designpattern.structural.proxy.Order;
+import com.ximo.designpattern.structural.proxy.constants.CommonConstants;
+import com.ximo.designpattern.structural.proxy.db.DataSourceContextHolder;
 
 /**
  * @author xikl

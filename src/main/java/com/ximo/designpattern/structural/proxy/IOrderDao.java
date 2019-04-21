@@ -1,4 +1,4 @@
-package com.ximo.designpattern.proxy;
+package com.ximo.designpattern.structural.proxy;
 
 /**
  * @author Ximo

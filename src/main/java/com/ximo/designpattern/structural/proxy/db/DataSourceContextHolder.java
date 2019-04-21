@@ -1,4 +1,4 @@
-package com.ximo.designpattern.proxy.db;
+package com.ximo.designpattern.structural.proxy.db;
 
 /**
  * 数据源容器
