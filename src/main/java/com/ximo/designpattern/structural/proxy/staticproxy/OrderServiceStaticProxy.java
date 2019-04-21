@@ -16,7 +16,19 @@ public class OrderServiceStaticProxy {
 
 
     public  int saveOrder(Order order) {
-        beforeMethod();
+        beforeMethod(order);
+        int result = iOrderService.saveOrder(order);
+        afterMethod();
+        return result;
+    }
+
+    /**
+     * 前置
+     *
+     * @param order
+     */
+    private void beforeMethod(Order order) {
+        System.out.println("before invoke");
         iOrderService = new IOrderServiceImpl();
         int userId = order.getUserId();
         int dbRouter = userId % 2;
@@ -24,12 +36,6 @@ public class OrderServiceStaticProxy {
 
         // 修改数据源
         setDataSource(dbRouter);
-        afterMethod();
-        return iOrderService.saveOrder(order);
-    }
-
-    private void beforeMethod() {
-        System.out.println("before invoke");
     }
 
     private void afterMethod() {
