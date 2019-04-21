@@ -1,4 +1,4 @@
-package com.ximo.designpattern.strategy.simple;
+package com.ximo.designpattern.behavior.strategy.simple;
 
 /**
  * @author 朱文赵

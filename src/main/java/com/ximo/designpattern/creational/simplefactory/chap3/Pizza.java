@@ -1,4 +1,4 @@
-package com.ximo.designpattern.simplefactory.chap3;
+package com.ximo.designpattern.creational.simplefactory.chap3;
 
 import java.util.ArrayList;
 import java.util.List;

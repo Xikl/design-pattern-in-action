@@ -1,9 +1,9 @@
-package com.ximo.designpattern.strategy.strategyandfactory;
+package com.ximo.designpattern.behavior.strategy.strategyandfactory;
 
-import com.ximo.designpattern.simplefactory.chap2.BaseCash;
-import com.ximo.designpattern.simplefactory.chap2.CashNormal;
-import com.ximo.designpattern.simplefactory.chap2.CashRebate;
-import com.ximo.designpattern.simplefactory.chap2.CashReturn;
+import com.ximo.designpattern.creational.simplefactory.chap2.BaseCash;
+import com.ximo.designpattern.creational.simplefactory.chap2.CashNormal;
+import com.ximo.designpattern.creational.simplefactory.chap2.CashRebate;
+import com.ximo.designpattern.creational.simplefactory.chap2.CashReturn;
 
 import java.math.BigDecimal;
 

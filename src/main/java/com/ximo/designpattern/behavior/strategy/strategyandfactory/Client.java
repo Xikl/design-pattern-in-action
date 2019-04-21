@@ -1,4 +1,4 @@
-package com.ximo.designpattern.strategy.strategyandfactory;
+package com.ximo.designpattern.behavior.strategy.strategyandfactory;
 
 import java.math.BigDecimal;
 

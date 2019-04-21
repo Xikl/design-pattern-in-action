@@ -1,4 +1,4 @@
-package com.ximo.designpattern.simplefactory.chap3;
+package com.ximo.designpattern.creational.simplefactory.chap3;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 

@@ -1,4 +1,4 @@
-package com.ximo.designpattern.simplefactory.chap2;
+package com.ximo.designpattern.creational.simplefactory.chap2;
 
 import java.math.BigDecimal;
 
