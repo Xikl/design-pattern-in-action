@@ -1,4 +1,4 @@
-package com.ximo.designpattern.observer;
+package com.ximo.designpattern.behavior.observer.weather;
 
 /**
  * @author 朱文赵
