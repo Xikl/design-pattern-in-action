@@ -69,6 +69,14 @@
 			<version>0.9.11</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/cglib/cglib-nodep -->
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib-nodep</artifactId>
+			<version>3.2.12</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
