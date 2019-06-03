@@ -12,6 +12,11 @@ import java.lang.reflect.Proxy;
  */
 public class Test {
 
+    /**
+     * 我们可以把这一段代码放到 {@link TimeHandler}中
+     *
+     * @param args 方法参数
+     */
     public static void main(String[] args) {
         Car car = new Car();
         InvocationHandler invocationHandler = new TimeHandler(car);

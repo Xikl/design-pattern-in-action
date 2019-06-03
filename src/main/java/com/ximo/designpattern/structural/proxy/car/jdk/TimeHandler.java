@@ -2,6 +2,7 @@ package com.ximo.designpattern.structural.proxy.car.jdk;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 
 /**
  * @author xikl
@@ -13,6 +14,16 @@ public class TimeHandler implements InvocationHandler {
 
     public TimeHandler(Object target) {
         this.target = target;
+    }
+
+    /**
+     * 这样就会减少很多
+     *
+     * @return 一个新的代理对象
+     */
+    public Object newProxyObject() {
+        Class<?> carClass = target.getClass();
+        return Proxy.newProxyInstance(carClass.getClassLoader(), carClass.getInterfaces(), this);
     }
 
     /**
