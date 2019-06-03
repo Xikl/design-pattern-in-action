@@ -21,6 +21,10 @@ public class CglibProxy implements MethodInterceptor {
         return enhancer.create();
     }
 
+    public Object getProxyByClass(Class clazz) {
+        return Enhancer.create(clazz, this);
+    }
+
 
     /**
      *

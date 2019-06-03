@@ -8,7 +8,7 @@ public class Test {
 
     public static void main(String[] args) {
         CglibProxy cglibProxy = new CglibProxy();
-        Train train = (Train) cglibProxy.getProxy(Train.class);
+        Train train = (Train) cglibProxy.getProxyByClass(Train.class);
         train.say();
 
     }
